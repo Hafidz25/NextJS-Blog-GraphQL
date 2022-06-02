@@ -6,5 +6,11 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {
+      animation: ['motion-safe'],
+    }
+  },
   plugins: [],
+  
 }
