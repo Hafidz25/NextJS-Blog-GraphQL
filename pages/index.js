@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { PostCard, Categories, PostWidget } from '../components'
 import { getPost } from '../services'
-import { FeaturedPosts } from './sections'
+import { FeaturedPosts } from '../sections'
 
 export async function getStaticProps() {
   const posts = (await getPost()) || []
