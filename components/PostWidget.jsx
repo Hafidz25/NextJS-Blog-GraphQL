@@ -26,7 +26,7 @@ const PostWidget = ({ categories, slug }) => {
         </h3>
         {relatedPost.map((post) => (
         <Link href={`/post/${post.slug}`} key={post} className='text-md'>
-            <div key={post.title} className='flex items-center w-full pb-2 mb-4 hover:bg-gray-100 bg-origin-padding p-4 bg-rounded cursor-pointer transition duration-500'>
+            <div key={post.title} className='flex items-center w-full pb-2 mb-4 hover:bg-gray-300 bg-origin-padding p-4 rounded-lg cursor-pointer transition duration-500'>
                 <div className='w-16 flex-none'>
                     <img 
                         src={post.featuredImage.url} 
