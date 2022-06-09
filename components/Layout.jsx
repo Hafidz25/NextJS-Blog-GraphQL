@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from './index'
+import { Header, Navbar } from './index'
 
 const Layout = ({children}) => {
   return (

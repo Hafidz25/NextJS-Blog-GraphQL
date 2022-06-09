@@ -33,7 +33,7 @@ const PostWidget = ({ categories, slug }) => {
                         alt={post.title}
                         height='60px'
                         width='60px'
-                        className='align-middle rounded-full'
+                        className='align-middle rounded'
                     />
                 </div>
                 <div className='flex-grow ml-4'>
