@@ -23,7 +23,9 @@ const FeaturedPostCard = ({ post }) => (
             <p className="inline align-middle text-white text-shadow ml-2 font-medium">{post.author.name}</p>
           </div>
         </div>
-    <Link href={`/post/${post.slug}`}><span className="cursor-pointer bg-gray-100 bg-opacity-10 trasition duration-300 hover:bg-opacity-0 hover:scale-125 rounded-lg absolute w-full h-full" /></Link>
+    <Link href={`/post/${post.slug}`}><span className="cursor-pointer bg-black bg-opacity-70 trasition duration-300 hover:bg-opacity-0 rounded-lg absolute w-full h-full" />
+
+    </Link>
   </div>
 );
 
